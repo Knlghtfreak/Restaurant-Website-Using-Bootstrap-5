@@ -232,4 +232,20 @@ p{
     box-shadow: 0 0.125rem 1.75rem 0 rgb(0 0 0 0);
     transition: all .15s ease-in-out 0s;
 }
-/* Navbar styling on Scroll */
+
+/* ======================= 
+   Top Banner CSS
+   =======================
+*/
+
+.top-banner{
+    width: 100%;
+    background: url('/images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+/* ======================= 
+   Counter CSS
+   =======================
+*/
