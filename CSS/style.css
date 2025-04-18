@@ -279,3 +279,33 @@ p{
 .about-section .text-sec{
     padding-left: 2rem;
 }
+
+/* ======================= 
+   Food type sec CSS
+   =======================
+*/
+
+.food-type{
+    padding-top: 3.25rem;
+}
+
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.food-type ul li:before{
+    content: '\f00c';
+    position: absolute;
+    left: -2.1875rem;
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--primary-color);
+    display: inline;
+    padding-right: 3px;
+    vertical-align: middle;
+}
