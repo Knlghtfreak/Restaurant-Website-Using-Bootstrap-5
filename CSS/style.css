@@ -255,6 +255,7 @@ p{
 .counter-section{
     background-color: var(--primary-color);
     padding: 2.5rem 0;
+    overflow: hidden;
 }
 
 .counter-section p{
